@@ -15,7 +15,7 @@ func init() {
 //
 //
 //
-//
+// Authenticator represents a contract
 // Authenticator performs series of exchanges with the server until the serer says "permitted" or "denied"
 type Authenticator interface {
 	AuthenticationStep(in data.InputAuthenData) (out data.ServerResponseData, complete bool, err error)
@@ -24,7 +24,7 @@ type Authenticator interface {
 //
 //
 //
-//
+// DBBasedAuthentication, a concrete type that implements Authenticator
 // DBBasedAuthentication is a DB authentication client for DB based authentication.
 type DBBasedAuthentication struct {
 	Host         string
