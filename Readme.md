@@ -15,8 +15,8 @@ Design motivation:
 
 Pending items:
 =============
-Handling response  from `platform` layer -> `api` layer -> client code
-
+1) Handling response  from `platform` layer -> `api` layer -> client code
+2) Additional external authentication chained modules are defined in a config file.
 
 Build instructions:
 ====================
