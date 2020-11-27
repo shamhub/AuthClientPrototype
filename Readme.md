@@ -1,6 +1,6 @@
 Prototype Current status:
 ========================
-1) Initial design draft with two layer design(`api/` & `platform/`) that fits into "model" component of MVC
+1) Initial design draft with two layer(`api/` & `../internal/platform/`) design that fits into "model" component of MVC
 2) Two layer design because client must inevitably know which "kind" of authentication takes place
 
 
@@ -13,8 +13,15 @@ Design motivation:
 2) Grouping types(`type`) by "what they do" but not by "who they are"
 
 
-
 Pending items:
 =============
 Handling response  from `platform` layer -> `api` layer -> client code
+
+
+Build instructions:
+====================
+
+    `$ make install`
+
+    `$ authclient`
 
