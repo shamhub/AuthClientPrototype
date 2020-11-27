@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-	rand.Seed(time.Now().UnixNano()) // mock logic
+	rand.Seed(time.Now().UnixNano()) // mock logic to call auth source
 }
 
 //

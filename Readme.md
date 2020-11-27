@@ -1,7 +1,7 @@
 Prototype Current status:
 ========================
-1) Initial design draft with two layer design(`cmd/` + `platform/`) that fits into "model" component of MVC
-2) Two layer design should be final because client must inevitably know which "kind" of authentication takes place
+1) Initial design draft with two layer design(`api/` & `platform/`) that fits into "model" component of MVC
+2) Two layer design because client must inevitably know which "kind" of authentication takes place
 
 
 
